@@ -45,7 +45,7 @@ const Index = () => {
             </div>
 
             <div className="space-y-2">
-              <p className="text-sm font-medium text-muted-foreground">📌 Petition addressed to:</p>
+              <p className="text-sm font-medium text-muted-foreground">Petition addressed to:</p>
               <ul className="text-sm text-muted-foreground space-y-1">
                 <li>• Members of the <strong className="text-foreground">United States Congress</strong></li>
                 <li>• The <strong className="text-foreground">U.S. Department of Agriculture</strong></li>

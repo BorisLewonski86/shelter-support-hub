@@ -7,7 +7,7 @@ const Header = () => {
         <img 
           src={logo} 
           alt="Animal Shelter Petition" 
-          className="h-20 w-auto object-contain"
+          className="h-32 md:h-40 w-auto object-contain"
         />
       </div>
     </header>

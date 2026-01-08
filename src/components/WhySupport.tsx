@@ -1,5 +1,6 @@
 import veterinarianCat from "@/assets/veterinarian-cat.jpg";
 import veterinarianDog from "@/assets/veterinarian-dog.webp";
+import shelterCatCage from "@/assets/shelter-cat-cage.png";
 
 const WhySupport = () => {
   const reasons = [
@@ -37,6 +38,11 @@ const WhySupport = () => {
         <img 
           src={veterinarianCat} 
           alt="Cat at veterinarian" 
+          className="w-full h-32 object-cover rounded-lg"
+        />
+        <img 
+          src={shelterCatCage} 
+          alt="Cat in shelter" 
           className="w-full h-32 object-cover rounded-lg"
         />
       </div>

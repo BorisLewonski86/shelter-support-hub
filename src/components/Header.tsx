@@ -2,7 +2,7 @@ import logo from "@/assets/logo.png";
 
 const Header = () => {
   return (
-    <header className="w-full py-6 flex justify-center">
+    <header className="w-full pt-6 pb-2 flex justify-center">
       <div className="flex flex-col items-center">
         <img 
           src={logo} 

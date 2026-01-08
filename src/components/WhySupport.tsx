@@ -1,6 +1,5 @@
-import shelterDog from "@/assets/shelter-dog.jpg";
-import shelterCat from "@/assets/shelter-cat.jpg";
-import shelterAnimals from "@/assets/shelter-animals.jpg";
+import veterinarianCat from "@/assets/veterinarian-cat.jpg";
+import veterinarianDog from "@/assets/veterinarian-dog.webp";
 
 const WhySupport = () => {
   const reasons = [
@@ -29,20 +28,15 @@ const WhySupport = () => {
         <p className="text-sm mt-1">— Shelter Staff</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-3 mt-4">
+      <div className="grid grid-cols-2 gap-3 mt-4">
         <img 
-          src={shelterDog} 
-          alt="Dog at shelter" 
+          src={veterinarianDog} 
+          alt="Dog at veterinarian" 
           className="w-full h-24 object-cover rounded-lg"
         />
         <img 
-          src={shelterCat} 
-          alt="Cat at shelter" 
-          className="w-full h-24 object-cover rounded-lg"
-        />
-        <img 
-          src={shelterAnimals} 
-          alt="Animals at shelter" 
+          src={veterinarianCat} 
+          alt="Cat at veterinarian" 
           className="w-full h-24 object-cover rounded-lg"
         />
       </div>

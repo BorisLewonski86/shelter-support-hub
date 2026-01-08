@@ -43,7 +43,7 @@ const WhySupport = () => {
         <img 
           src={shelterCatCage} 
           alt="Cat in shelter" 
-          className="w-full h-32 object-cover rounded-lg"
+          className="w-full flex-1 object-cover rounded-lg"
         />
       </div>
     </div>

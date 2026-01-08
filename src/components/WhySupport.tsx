@@ -28,16 +28,16 @@ const WhySupport = () => {
         <p className="text-sm mt-1">— Shelter Staff</p>
       </div>
 
-      <div className="grid grid-cols-2 gap-3 mt-4">
+      <div className="flex flex-col gap-3 mt-4">
         <img 
           src={veterinarianDog} 
           alt="Dog at veterinarian" 
-          className="w-full h-24 object-cover rounded-lg"
+          className="w-full h-32 object-cover rounded-lg"
         />
         <img 
           src={veterinarianCat} 
           alt="Cat at veterinarian" 
-          className="w-full h-24 object-cover rounded-lg"
+          className="w-full h-32 object-cover rounded-lg"
         />
       </div>
     </div>

